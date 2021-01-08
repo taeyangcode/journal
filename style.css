@@ -1,0 +1,101 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.journal-information-container {
+  width: 100vw;
+  height: 400px;
+  background: pink;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.journal-information-top-container {
+  width: 100vw;
+  height: 350px;
+  background: skyblue;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.journal-image-container {
+  width: 350px;
+  height: 100%;
+  background: blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal-image {
+  width: 300px;
+  height: 300px;
+  background: url('journalimage.jpg');
+  background-position: center;
+  position: relative;
+}
+
+.journal-information {
+  flex-grow: 1;
+  height: 100%;
+  background: lightgreen;
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.journal-entries-text {
+  background: red;
+}
+
+.journal-entries-name {
+  background: orange;
+}
+
+.journal-entries-details {
+  background: yellow;
+}
+
+.journal-entries-read-button {
+  background: green;
+}
+
+.journal-filter-container {
+  flex-grow: 1;
+  background: purple;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.journal-filter-textbox {
+  width: 90%;
+  height: 75%;
+  background: pink;
+}
+
+.journal-entries-list {
+  width: 100vw;
+  min-height: 450px;
+  background: olive;
+}
+
+.journal-entries-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.journal-categories td {
+  padding: 8px;
+  text-align: center;
+}
